@@ -1,6 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- ✅ SEO Essentials -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Stayton Credit Solutions | Best Credit Repair in North Richland Hills</title>
+<meta name="description" content="Stayton Credit Solutions offers professional credit repair services in North Richland Hills, TX. We help remove errors, boost scores, and rebuild stronger credit. Call (682) 888-9241." />
+<meta name="keywords" content="credit repair, North Richland Hills credit repair, fix credit fast, credit score improvement, credit repair Texas, Stayton Credit Solutions, credit dispute services, best credit repair near me" />
+
+<!-- ✅ Author & Business Info -->
+<meta name="author" content="Stayton Credit Solutions - Joseph Stayton" />
+<meta name="business" content="Stayton Credit Solutions, 8500 Harwood Rd, North Richland Hills, TX 76180" />
+
+<!-- ✅ Open Graph (For Facebook, Instagram, etc.) -->
+<meta property="og:title" content="Stayton Credit Solutions | Best Credit Repair in Texas" />
+<meta property="og:description" content="Professional credit repair services that dispute errors, remove negatives, and rebuild your financial future." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://yourwebsite.github.io" />
+<meta property="og:image" content="https://yourwebsite.github.io/images/logo.png" />
+
+<!-- ✅ Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Stayton Credit Solutions" />
+<meta name="twitter:description" content="Trusted credit repair service helping you regain financial freedom." />
+<meta name="twitter:image" content="https://yourwebsite.github.io/images/logo.png" />
+
+<!-- ✅ Local SEO + Business Information -->
+<meta name="geo.region" content="US-TX" />
+<meta name="geo.placename" content="North Richland Hills" />
+<meta name="geo.position" content="32.8343;-97.2289" />
+<meta name="ICBM" content="32.8343, -97.2289" />
+
+<!-- ✅ Sitemap & Robots -->
+<link rel="canonical" href="https://yourwebsite.github.io" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+<meta name="robots" content="index, follow" />
+
+
 <meta name="google-site-verification" content="L_-BRXAa5ELwpBE2EHRh-RaAaPZ5UFrNVpHPauxY50I" />
 
   <!-- Essential SEO -->
