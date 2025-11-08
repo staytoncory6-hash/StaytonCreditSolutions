@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Essential SEO -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stayton Credit Solutions | Best Repair In The Business – North Richland Hills, TX</title>
+  <meta name="description" content="Stayton Credit Solutions helps Texans fix errors, dispute inaccuracies, and build healthy credit. Voted New Business of the Year. Free 10 inquiry deletions, transparent pricing, and fast support." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.staytoncreditsolutions.com/" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+  <!-- Open Graph & Twitter -->
+  <meta property="og:title" content="Stayton Credit Solutions | Best Repair In The Business" />
+  <meta property="og:description" content="Trusted credit repair in North Richland Hills, TX. Voted New Business of the Year. Transparent pricing, fast support, and compliant disputes." />
+  <meta property="og:url" content="https://www.staytoncreditsolutions.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.staytoncreditsolutions.com/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Stayton Credit Solutions | Best Repair In The Business" />
+  <meta name="twitter:description" content="Credit repair done right. Voted New Business of the Year." />
+  <meta name="twitter:image" content="https://www.staytoncreditsolutions.com/og-image.jpg" />
+
+  <!-- Favicon (replace with your real files) -->
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Colors for UI -->
+  <meta name="theme-color" content="#0b1a38" />
+
+  <!-- Inline, production-friendly CSS (navy/gold/white) -->
+  <style>
+    :root{
+      --navy:#0b1a38; --gold:#d4af37; --white:#ffffff; --ink:#111827; --muted:#6b7280; --bg:#f7f8fb; --success:#0ea5e9;
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
+    a{color:var(--navy);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{width:min(1100px,92%);margin:auto}
+    /* Header / Nav */
+    .topbar{background:var(--navy);color:var(--white);position:sticky;top:0;z-index:1000;box-shadow:0 4px 18px rgba(0,0,0,.15)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand img{width:42px;height:42px;border-radius:50%;border:2px solid var(--gold);background:#061026;object-fit:cover}
+    .brand h1{font-size:1.05rem;letter-spacing:.3px;margin:0;font-weight:700}
+    .tag{display:inline-block;margin-left:8px;padding:4px 8px;border-radius:999px;background:var(--gold);color:#000;font-size:.72rem;font-weight:700;white-space:nowrap}
+    .nav a.btn{background:var(--gold);color:#000;padding:10px 14px;border-radius:10px;font-weight:700;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+    .menu{display:flex;gap:16px;align-items:center}
+    .menu a{color:var(--white);font-weight:600}
+    /* Hero */
+    .hero{background:linear-gradient(120deg,#0b1a38 0%,#122758 60%, #1a356e 100%);color:var(--white);padding:56px 0 40px}
+    .hero h2{font-size:2.2rem;margin:.2rem 0 .6rem}
+    .hero p{opacity:.95;max-width:48ch}
+    .badges{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .badge{background:rgba(255,255,255,.1);border:1px solid rgba(212,175,55,.7);padding:8px 12px;border-radius:999px;font-weight:700}
+    .cta{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+    .cta a{display:inline-block;padding:12px 16px;border-radius:12px;font-weight:800}
+    .cta .primary{background:var(--gold);color:#000}
+    .cta .ghost{border:2px solid var(--gold);color:var(--white)}
+    /* Sections */
+    section{padding:48px 0}
+    h3.section-title{font-size:1.6rem;margin:0 0 18px}
+    .grid{display:grid;gap:18px}
+    .grid-3{grid-template-columns:repeat(3,1fr)}
+    .grid-2{grid-template-columns:repeat(2,1fr)}
+    @media (max-width:900px){.grid-3,.grid-2{grid-template-columns:1fr}}
+    .card{background:var(--white);border-radius:var(--radius);padding:18px;box-shadow:0 6px 24px rgba(10,23,55,.08);border:1px solid #e5e7eb}
+    .card h4{margin:.2rem 0 .4rem}
+    .muted{color:var(--muted)}
+    .li{display:flex;gap:10px;align-items:flex-start}
+    .li .dot{width:9px;height:9px;border-radius:999px;background:var(--gold);margin-top:.6rem}
+    /* Pricing */
+    .price{font-size:2rem;font-weight:900}
+    .small{font-size:.9rem}
+    .tick{font-weight:800;color:#065f46}
+    /* Contact */
+    form{display:grid;gap:12px}
+    input, textarea, select{width:100%;padding:12px 14px;border:1px solid #d1d5db;border-radius:10px;font:inherit;background:#fff}
+    button{cursor:pointer;font-weight:800}
+    .btn-primary{background:var(--navy);color:#fff;border:none;padding:14px;border-radius:12px}
+    .notice{background:#ecfeff;border:1px solid #bae6fd;color:#075985;padding:10px;border-radius:10px}
+    /* Footer */
+    footer{background:#0c1c3f;color:#c8d2ea;padding:28px 0;margin-top:24px}
+    .foot a{color:#c8d2ea}
+    .legal{font-size:.85rem;color:#aab4d2}
+    .inline{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .award{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border:1px dashed var(--gold);border-radius:999px;background:#0f2250}
+  </style>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Organization",
+        "name":"Stayton Credit Solutions",
+        "url":"https://www.staytoncreditsolutions.com/",
+        "logo":"https://www.staytoncreditsolutions.com/logo.png",
+        "email":"mailto:staytoncory6@gmail.com",
+        "telephone":"+1-682-888-9241",
+        "sameAs":[
+          "https://www.facebook.com/StaytonCreditSolutions",
+          "https://www.instagram.com/StaytonCreditSolutions"
+        ],
+        "award":"Voted New Business of the Year"
+      },
+      {
+        "@type":"LocalBusiness",
+        "name":"Stayton Credit Solutions",
+        "image":"https://www.staytoncreditsolutions.com/og-image.jpg",
+        "telephone":"+1-682-888-9241",
+        "email":"mailto:staytoncory6@gmail.com",
+        "address":{
+          "@type":"PostalAddress",
+          "streetAddress":"8500 Harwood Rd",
+          "addressLocality":"North Richland Hills",
+          "addressRegion":"TX",
+          "postalCode":"76180",
+          "addressCountry":"US"
+        },
+        "areaServed":"Texas",
+        "url":"https://www.staytoncreditsolutions.com/",
+        "openingHoursSpecification":[
+          {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"}
+        ],
+        "priceRange":"$$"
+      },
+      {
+        "@type":"WebSite",
+        "name":"Stayton Credit Solutions",
+        "url":"https://www.staytoncreditsolutions.com/",
+        "potentialAction":{
+          "@type":"SearchAction",
+          "target":"https://www.staytoncreditsolutions.com/?q={search_term_string}",
+          "query-input":"required name=search_term_string"
+        }
+      },
+      {
+        "@type":"FAQPage",
+        "mainEntity":[
+          {"@type":"Question","name":"How long does credit repair take?","acceptedAnswer":{"@type":"Answer","text":"Minor identity fixes take about 30–45 days. Account-level disputes often take 1–3 months; complex cases (e.g., charge-offs, bankruptcy) may require multiple rounds over 6–12 months."}},
+          {"@type":"Question","name":"Do you guarantee score changes?","acceptedAnswer":{"@type":"Answer","text":"No one can guarantee specific score outcomes. We focus on accurate disputes, documentation, and education to improve your file ethically and compliantly."}},
+          {"@type":"Question","name":"What are your prices?","acceptedAnswer":{"@type":"Answer","text":"$150 onboarding review; $99/month service; first 10 inquiry deletions are free; additional inquiries billed at $10 each."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Top bar / Navigation -->
+  <header class="topbar" role="banner">
+    <div class="container nav" aria-label="Main">
+      <div class="brand">
+        <!-- Replace src with your logo -->
+        <img src="/logo.png" alt="Stayton Credit Solutions logo" />
+        <div>
+          <h1>Stayton Credit Solutions <span class="tag" aria-label="Award">Voted New Business of the Year</span></h1>
+          <div class="muted" style="font-size:.85rem">“Best Repair In The Business” • North Richland Hills, TX</div>
+        </div>
+      </div>
+      <nav class="menu" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#how">How It Works</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn">Free Credit Review</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h2>Fix errors. Dispute inaccuracies. Build strong credit—ethically & fast.</h2>
+      <p>Texas-based experts helping you clean up your file and understand every step. Transparent pricing, clear timelines, and compliant dispute strategies that put you in control.</p>
+      <div class="badges">
+        <span class="badge" aria-hidden="true">Award-Winning</span>
+        <span class="badge" aria-hidden="true">Local • TX</span>
+        <span class="badge" aria-hidden="true">Transparent Pricing</span>
+        <span class="badge" aria-hidden="true">First 10 Inquiries Free</span>
+      </div>
+      <div class="cta">
+        <a class="primary" href="#contact">Book your free review</a>
+        <a class="ghost" href="#pricing" aria-label="View pricing and plans">See pricing</a>
+        <a class="ghost" href="tel:+16828889241" aria-label="Call us now">Call (682) 888-9241</a>
+      </div>
+      <div class="inline" style="margin-top:10px">
+        <span class="award">🏆 Voted New Business of the Year</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h3 class="section-title">What we do</h3>
+      <div class="grid grid-3">
+        <article class="card">
+          <h4>Credit File Audit</h4>
+          <p class="muted">Deep review across Experian, Equifax, and TransUnion to identify inaccuracies, mixed files, or outdated data.</p>
+          <ul>
+            <li>Identity & address mismatches</li>
+            <li>Duplicate or obsolete tradelines</li>
+            <li>Data furnisher inconsistencies</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h4>Dispute Management</h4>
+          <p class="muted">Compliant letters and documentation aligned to FCRA/CROA. We track deadlines and responses for you.</p>
+          <ul>
+            <li>Targeted dispute strategies</li>
+            <li>Escalations with documentation</li>
+            <li>Clear status updates</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h4>Education & Rebuild</h4>
+          <p class="muted">Score foundations: utilization, mix, history. Action plan to rebuild and protect future credit health.</p>
+          <ul>
+            <li>Utilization & limit guidance</li>
+            <li>Positive tradeline strategy</li>
+            <li>Identity theft best practices</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proof / Highlights -->
+  <section>
+    <div class="container grid grid-3">
+      <div class="card">
+        <h4>Transparent Timelines</h4>
+        <p class="muted">Minor identity fixes: ~30–45 days. Account disputes: 1–3 months. Complex items may require 6–12 months.</p>
+      </div>
+      <div class="card">
+        <h4>Compliance-First</h4>
+        <p class="muted">We follow applicable federal & Texas rules. No fake promises—just precise documentation and tracking.</p>
+      </div>
+      <div class="card">
+        <h4>Local, Human Support</h4>
+        <p class="muted">Talk to a real person in Texas. We keep you updated and explain every move in plain English.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" aria-labelledby="pricing-title">
+    <div class="container grid grid-2">
+      <div>
+        <h3 id="pricing-title" class="section-title">Straightforward pricing</h3>
+        <div class="card">
+          <div class="price">$150 <span class="small">onboarding review</span></div>
+          <ul style="margin-top:10px">
+            <li>Full tri-bureau analysis</li>
+            <li>Personalized dispute plan</li>
+            <li>Document checklist</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="price">$99 <span class="small">/ month</span></div>
+          <ul style="margin-top:10px">
+            <li><strong>First 10 inquiries free</strong></li>
+            <li>$10 each additional inquiry</li>
+            <li>Monthly progress reporting</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <h4>What to expect</h4>
+        <div class="li"><span class="dot"></span><div>We confirm identity and gather reports.</div></div>
+        <div class="li"><span class="dot"></span><div>We draft targeted, compliant disputes with your documentation.</div></div>
+        <div class="li"><span class="dot"></span><div>We track bureau deadlines and update you promptly.</div></div>
+        <div class="li"><span class="dot"></span><div>We guide rebuilding behavior for long-term results.</div></div>
+        <p class="muted" style="margin-top:8px">No one can guarantee removals or score changes. We fight for accuracy and fairness with a documented process.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how">
+    <div class="container">
+      <h3 class="section-title">How it works</h3>
+      <div class="grid grid-3">
+        <div class="card"><h4>1) Free Review</h4><p class="muted">We discuss your goals and outline a plan before you pay a cent.</p></div>
+        <div class="card"><h4>2) Audit & Plan</h4><p class="muted">We map all issues, prioritize disputes, and prep documentation.</p></div>
+        <div class="card"><h4>3) Dispute & Rebuild</h4><p class="muted">We manage disputes, then coach you on rebuilding and protection.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="container">
+      <h3 class="section-title">Frequently asked questions</h3>
+      <div class="grid grid-2" role="list">
+        <details class="card" role="listitem">
+          <summary><strong>How long does it take?</strong></summary>
+          <p>Minor identity fixes: about 30–45 days. Account-level disputes: 1–3 months. Complex items may take 6–12 months with multiple rounds.</p>
+        </details>
+        <details class="card" role="listitem">
+          <summary><strong>Can you guarantee removals or score changes?</strong></summary>
+          <p>No. We can’t guarantee outcomes. We can guarantee a compliant, documented process and clear communication.</p>
+        </details>
+        <details class="card" role="listitem">
+          <summary><strong>What do you need from me?</strong></summary>
+          <p>Government ID, proof of address, recent credit reports, and any supporting documents related to disputed items.</p>
+        </details>
+        <details class="card" role="listitem">
+          <summary><strong>Do you work only in Texas?</strong></summary>
+          <p>We’re based in North Richland Hills and primarily serve Texans. Ask us about your situation.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="container grid grid-2">
+      <div>
+        <h3 id="contact-title" class="section-title">Talk to a human</h3>
+        <p class="muted">Prefer a call or text? We’ve got you.</p>
+        <div class="card">
+          <p class="inline"><strong>Phone:</strong> <a href="tel:+16828889241">(682) 888-9241</a></p>
+          <p class="inline"><strong>Email:</strong> <a href="mailto:staytoncory6@gmail.com">staytoncory6@gmail.com</a></p>
+          <p class="inline"><strong>Address:</strong> 8500 Harwood Rd, North Richland Hills, TX 76180 — <a href="https://maps.google.com/?q=8500+Harwood+Rd+North+Richland+Hills+TX+76180" rel="noopener">Open map</a></p>
+          <p class="inline"><strong>Hours:</strong> Mon–Fri, 9am–6pm</p>
+          <p class="notice">Submitting this form sends us your details. We’ll reply with next steps. Do not include SSN in this form.</p>
+        </div>
+      </div>
+      <div class="card" role="form" aria-label="Contact form">
+        <!-- NOTE: Replace action with your backend endpoint or Formspree/Make/Zapier URL -->
+        <form id="contactForm" action="/api/contact" method="post" novalidate>
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+          <label for="phone">Phone (optional)</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" />
+          <label for="topic">Main issue</label>
+          <select id="topic" name="topic" required>
+            <option value="">Choose one…</option>
+            <option>Incorrect personal info</option>
+            <option>Unauthorized account</option>
+            <option>Late payment dispute</option>
+            <option>Collection/charge-off</option>
+            <option>Identity theft</option>
+            <option>Other</option>
+          </select>
+          <label for="message">Tell us more (no SSN here)</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <input type="hidden" name="source" value="website-contact" />
+          <button class="btn-primary" type="submit">Request free review</button>
+          <p id="formStatus" class="muted" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container foot">
+      <div class="inline" style="justify-content:space-between;align-items:flex-start">
+        <div>
+          <div><strong>Stayton Credit Solutions</strong></div>
+          <div>© <span id="year"></span> Stayton Credit Solutions. All rights reserved.</div>
+          <div class="legal">We comply with applicable federal and Texas laws. No guarantee of specific outcomes or score changes.</div>
+        </div>
+        <div>
+          <div><a href="#services">Services</a> · <a href="#pricing">Pricing</a> · <a href="#faq">FAQ</a> · <a href="#contact">Contact</a></div>
+          <div><a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Light JS: accessibility, simple validation (replace/expand as needed) -->
+  <script>
+    // Auto year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Basic, progressive enhancement for client-side feedback
+    const form = document.getElementById('contactForm');
+    const status = document.getElementById('formStatus');
+
+    form?.addEventListener('submit', async (e) => {
+      // If you don't have a backend yet, prevent and show instructions
+      if (form.getAttribute('action') === '/api/contact') {
+        e.preventDefault();
+        status.textContent = "Form is set to /api/contact. Connect this to Formspree, Make.com, Zapier, or your own backend endpoint to receive submissions.";
+        return;
+      }
+      // Example fetch for your backend (uncomment when ready)
+      /*
+      e.preventDefault();
+      status.textContent = "Sending…";
+      try{
+        const data = Object.fromEntries(new FormData(form).entries());
+        const res = await fetch(form.action, {method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)});
+        if(!res.ok) throw new Error("Network response was not ok");
+        status.textContent = "Thanks! We’ll be in touch shortly.";
+        form.reset();
+      }catch(err){
+        status.textContent = "Something went wrong. Please call (682) 888-9241.";
+      }
+      */
+    });
+  </script>
+</body>
+</html>
+St
