@@ -187,6 +187,51 @@
     ]
   }
   </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Stayton Credit Solutions",
+  "image": "https://yourwebsite.github.io/images/logo.png",
+  "url": "https://yourwebsite.github.io",
+  "telephone": "(682) 888-9241",
+  "email": "staytoncory6@gmail.com",
+  "priceRange": "$$",
+  "slogan": "Best Repair In The Business",
+  "description": "Stayton Credit Solutions provides professional credit repair services, credit disputes, and score rebuilding for clients in North Richland Hills, TX and surrounding areas.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "8500 Harwood Rd",
+    "addressLocality": "North Richland Hills",
+    "addressRegion": "TX",
+    "postalCode": "76180",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "32.8343",
+    "longitude": "-97.2289"
+  },
+  "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "18:00"
+    }],
+  "sameAs": [
+    "https://www.facebook.com/YourBusinessPage",
+    "https://www.instagram.com/YourBusinessPage",
+    "https://www.linkedin.com/in/yourprofile"
+  ]
+}
+</script>
+
 </head>
 <body>
   <!-- Top bar / Navigation -->
