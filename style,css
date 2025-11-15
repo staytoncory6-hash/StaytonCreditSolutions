@@ -20,6 +20,107 @@ margin-right: 15px;
 html {
     scroll-behavior: smooth;
 }
+/* ===== Body Settings & Global Reset ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2ff; /* light blue background */
+    color: #222222;            /* dark text */
+    line-height: 1.6;          /* comfortable spacing between lines */
+    text-align: center;        /* center text by default */
+}
+
+/* ===== Container (Keeps Content From Stretching Too Wide) ===== */
+.container {
+    max-width: 960px;
+    margin: 0 auto;      /* centers the container */
+    padding: 20px;
+}
+
+/* ===== Links (Clickable Text) ===== */
+a {
+    color: #0066cc;          /* blue links */
+    text-decoration: none;   /* no underline by default */
+}
+
+a:hover {
+    text-decoration: underline; /* underline on hover only */
+}
+
+/* ===== Header & Navigation Bar ===== */
+header {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    background-color: #0066cc;  /* blue bar at top */
+    color: #ffffff;             /* white text */
+    padding: 12px 20px;         /* space inside the bar */
+}
+
+.navbar .nav-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* ===== Logo Section (Logo + Text Side by Side) ===== */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 48px;          /* keeps logo same size */
+    width: auto;
+    display: block;
+}
+
+.logo-text {
+    text-align: left;
+}
+
+.logo-title {
+    font-weight: bold;     /* “Stayton Credit Solutions” bold */
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.logo-subtitle {
+    font-weight: 400;      /* smaller, lighter */
+    font-size: 0.85rem;
+    opacity: 0.9;
+    color: #e0ecff;
+}
+
+/* ===== Navigation Links (Row, Not Stacked) ===== */
+.nav-links {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: #ffffff;             /* white nav links */
+    font-weight: 500;
+    text-decoration: none;      /* no underline by default */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* underline on hover in nav */
+}
+
+/* ===== Sections (Hero, Why Us, Pricing, etc.) ===== */
+.se
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
