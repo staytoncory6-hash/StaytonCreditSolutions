@@ -8,6 +8,18 @@
         but it shows how different factors can affect your credit profile.
       </p>
     </div>
+         <style>
+    body {
+        background-color: #014421; /* Forest green */
+        color: #F0FFFF;           /* Arctic white */
+        font-family: Arial, sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, a, li, span, div {
+        color: #F0FFFF; /* Make all text arctic white */
+    }
+</style>
+ 
 
     <div class="why-grid">
       <!-- LEFT: CONTROLS -->
